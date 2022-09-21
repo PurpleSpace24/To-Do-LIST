@@ -1,0 +1,100 @@
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#2f1e3f, #2d255e);
+    margin: auto;
+    padding: auto;
+}
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    width: 620px;
+    height: 480px;
+    border-radius: 3%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    text-align: center;
+    overflow: auto;
+}
+
+.input-task {
+    width: 400px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.add_btn {
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    background-color: rgb(52, 6, 112);
+    color: white;
+    font-size: 15px;
+}
+
+table {
+    margin-top: 35px;
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+
+th,
+td {
+    border: none;
+    height: 30px;
+    padding: 2px;
+    text-align: left;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.input_form p{
+    color:rgb(148, 3, 3);
+    font-size: 20px;
+}
+
+.delete {
+    text-align: center;
+}
+
+.delete a {
+    color: white;
+    background: #a52a2a;
+    padding: 3px 9px;
+    border-radius: 3px;
+    text-decoration: none;
+    float: center;
+}
+
+.edit {
+    text-align: center;
+}
+
+.edit a {
+    color: white;
+    background: #4638c0;
+    padding: 3px 9px;
+    border-radius: 3px;
+    text-decoration: none;
+    float: center;
+}
+
+
+.back{
+    margin-top: 600px; 
+}
